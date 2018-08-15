@@ -54,7 +54,6 @@ module.exports = {
   plugins: [
   new ExtractTextPlugin("main.scss"),
   new HtmlWebpackPlugin({template: './src/index.html'})
-  // new webpack.DefinePlugin({})
 ],
 node: {
   fs: 'empty'
